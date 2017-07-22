@@ -1,0 +1,18 @@
+{
+  "name": "etherpad-lite",
+  "scripts": {
+    "postdeploy": "bin/run.sh"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
